@@ -1,0 +1,28 @@
+{
+  "name": "tic-tac-toe-player",
+  "version": "1.0.0",
+  "description": "This package provided a machine opponent player in a tic-tac-toe game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter list",
+    "train": "node ./src/train.js"
+  },
+  "keywords": [
+    "reinforcement learning",
+    "tic-tac-toe",
+    "React"
+  ],
+  "author": "Dominique A. Mariano",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cli-progress": "^3.9.0",
+    "should": "^13.2.3",
+    "yargs": "^16.2.0"
+  }
+}
